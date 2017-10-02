@@ -1,0 +1,25 @@
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "Maddie's Blog"
+# theme
+theme = "hugo-now"
+# Comment the themesDir option if you use this theme in production
+# google analytics
+GoogleAnalytics = "UA-XXXXXX"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Quick R Tutorials"
+  author = "Hugo Now"
+  keywords = ["hugo-now", "hugo"]
+  avatar = "/images/hugo.png"
+  displayauthor = false
+  # pygments
+  PygmentsUseClasses = true
+  PygmentsCodeFences = true
+  # pagination
+  paginate = 10
+  paginatePath = "page"
